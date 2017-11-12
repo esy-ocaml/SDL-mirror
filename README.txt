@@ -1,3 +1,4 @@
+# SDL Configured for use with `esy`. Original `README` is below.
 
                          Simple DirectMedia Layer
 
