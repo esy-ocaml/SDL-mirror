@@ -1,0 +1,37 @@
+{
+  "name": "@esy-ocaml/sdl2",
+  "version": "2.0.5000",
+  "description": "PackageJson version of SDL2.",
+  "main": "index.js",
+  "esy": {
+    "build": [
+      "./configure --prefix=$cur__lib --libdir=$cur__lib && make"
+    ],
+    "install": [
+      "make install"
+    ],
+    "exportedEnv": {
+      "PKG_CONFIG_PATH": {
+        "scope": "global",
+        "val": "$esy_ocaml__slash__sdl2__lib/pkgconfig:$PKG_CONFIG_PATH"
+      }
+    },
+    "buildsInSource": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esy-ocaml/SDL-mirror.git"
+  },
+  "keywords": [
+    "esy",
+    "sdl",
+    "sdl2"
+  ],
+  "author": {},
+  "license": "Zlib",
+  "bugs": {
+    "url": "https://github.com/esy-ocaml/SDL-mirror/issues"
+  },
+  "homepage": "https://github.com/esy-ocaml/SDL-mirror#readme",
+  "readmeFilename": "README.txt"
+}
