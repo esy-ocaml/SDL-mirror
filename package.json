@@ -13,7 +13,7 @@
     "exportedEnv": {
       "PKG_CONFIG_PATH": {
         "scope": "global",
-        "val": "$esy_ocaml__slash__sdl2__lib/pkgconfig:$PKG_CONFIG_PATH"
+        "val": "#{@esy-ocaml/sdl2.lib / 'pkgconfig' : $PKG_CONFIG_PATH}"
       }
     },
     "buildsInSource": true
@@ -35,3 +35,4 @@
   "homepage": "https://github.com/esy-ocaml/SDL-mirror#readme",
   "readmeFilename": "README.txt"
 }
+
