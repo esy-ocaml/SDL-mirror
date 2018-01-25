@@ -5,7 +5,8 @@
   "main": "index.js",
   "esy": {
     "build": [
-      "./configure --prefix=$cur__lib --libdir=$cur__lib && make"
+      "./configure --prefix=$cur__lib --libdir=$cur__lib",
+      "make"
     ],
     "install": [
       "make install"
@@ -35,4 +36,3 @@
   "homepage": "https://github.com/esy-ocaml/SDL-mirror#readme",
   "readmeFilename": "README.txt"
 }
-
