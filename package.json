@@ -1,6 +1,6 @@
 {
   "name": "@esy-ocaml/sdl2",
-  "version": "2.0.5000",
+  "version": "2.0.6000",
   "description": "PackageJson version of SDL2.",
   "main": "index.js",
   "esy": {
