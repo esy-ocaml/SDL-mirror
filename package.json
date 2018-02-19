@@ -5,7 +5,7 @@
   "main": "index.js",
   "esy": {
     "build": [
-      "./configure --prefix=#{@esy-ocaml/sdl2.lib} --libdir=#{@esy-ocaml/sdl2.lib}",
+      "./configure --prefix=#{self.lib} --libdir=#{self.lib}",
       "make"
     ],
     "install": [
